@@ -1,0 +1,36 @@
+/* C O L O R */
+
+:root {
+	--lightblue: #31c3bd;
+	--lighterblue: #65e9e4;
+	--lightyellow: #f2b137;
+	--lighteryellow: #ffc860;
+	--lightgray: #a8bfc9;
+	--lightergrey: #dbe8ed;
+	--Navy: #1a2a33;
+	--lightNavy: #1f3641;
+}
+
+/* T E X T */
+
+h1 {
+	font-size: 40px;
+}
+h2 {
+	font-size: 24px;
+}
+h3 {
+	font-size: 20px;
+}
+h4 {
+	font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+button {
+	color: var(--lightgray);
+	font-family: "Outfit";
+}
