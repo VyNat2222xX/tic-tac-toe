@@ -1,7 +1,18 @@
 /* O T H E R */
 
 body {
-	background-color: #1a2a33;
+	background-color: var(--Navy);
+}
+.form {
+	background-color: var(--Navy);
+	border: none;
+	margin: auto;
+	width: 100%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 }
 .upperpart {
 	display: flex;
@@ -10,9 +21,10 @@ body {
 	gap: 10px;
 }
 .pick {
-	background-color: #1f3641;
+	background-color: var(--lightNavy);
 	border-radius: 15px;
-	padding: 10px;
+	padding: 20px;
+	gap: 10px;
 	box-shadow: 0px -8px 0px 0px #10212a inset;
 	width: 90%;
 	margin: auto;
@@ -20,6 +32,9 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.pick h2 {
+	font-size: 16px;
 }
 .buttons {
 	background-color: var(--Navy);
@@ -41,4 +56,50 @@ body {
 .btngrey2 {
 	background-color: var(--Navy);
 	color: var(--lightgray);
+}
+.submit {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+}
+.submit button {
+	width: 90%;
+}
+.btndisabled {
+	background-color: var(--lightgray);
+	color: var(--Navy);
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px -8px 0px 0px #59666b inset;
+	padding: 10px;
+}
+.btnyellow {
+	background-color: var(--lightyellow);
+	color: var(--Navy);
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px -8px 0px 0px #cc8b13 inset;
+	padding: 10px;
+}
+.btncyan {
+	background-color: var(--lightblue);
+	color: var(--Navy);
+	border-radius: 15px;
+	border: none;
+	box-shadow: 0px -8px 0px 0px #118c87 inset;
+	padding: 10px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 10vh 10vh 10vh;
+	grid-template-rows: 10vh 10vh 10vh;
+	gap: 10px;
+}
+.grid button {
+	background-color: var(--lightNavy);
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px -8px 0px 0px #10212a inset;
 }
