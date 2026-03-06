@@ -6,13 +6,16 @@ body {
 .form {
 	background-color: var(--Navy);
 	border: none;
-	margin: auto;
-	width: 100%;
+	width: auto;
+	color: var(--lightgray);
+	height: 100%;
 }
 form {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 40px;
+	justify-self: center;
+	align-self: center;
 }
 .upperpart {
 	display: flex;
@@ -94,14 +97,25 @@ form {
 .grid {
 	display: grid;
 	grid-template-columns: 14vh 14vh 14vh;
-	grid-template-rows: 14vh 14vh 14vh;
-	gap: 10px;
+	grid-template-rows: 14vh 14vh 14vh 10vh;
+	gap: 15px;
+	align-self: center;
+	justify-self: center;
+	width: auto;
 }
 .grid button {
 	background-color: var(--lightNavy);
 	border-radius: 10px;
 	border: none;
 	box-shadow: 0px 8px 0px 0px #10212a;
+}
+.grid div {
+	color: var(--Navy);
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 .reset {
 	background-color: var(--lightgray);
@@ -114,6 +128,9 @@ form {
 main {
 	display: flex;
 	flex-direction: column;
+	justify-self: center;
+	align-self: center;
+	width: auto;
 }
 section {
 	width: 100%;
@@ -134,4 +151,34 @@ section {
 	display: flex;
 	gap: 10px;
 	align-items: center;
+}
+.cross {
+	background-color: var(--lightblue);
+}
+.tie {
+	background-color: var(--lightgray);
+}
+.dot {
+	background-color: var(--lightyellow);
+}
+.win {
+	width: 100%;
+	background-color: var(--lightNavy);
+	border: none;
+	color: var(--lightgray);
+}
+.currentwin {
+	display: flex;
+	align-items: center;
+}
+.yellow {
+	color: var(--lightyellow);
+}
+.blue {
+	color: var(--lightblue);
+}
+.text {
+	width: max-content;
+	justify-self: center;
+	align-self: center;
 }
