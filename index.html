@@ -14,7 +14,7 @@
 </head>
 
 <body>
-	<dialog class="form" open>
+	<dialog id="menu" class="form" open>
 		<form id="form">
 			<div class="upperpart">
 				<svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +50,7 @@
 			</div>
 			<div class="submit">
 				<button class="btndisabled" disabled>NEW GAME (VS CPU)</button>
-				<button class="btncyan">NEW GAME (VS PLAYER)</button>
+				<button class="btncyan" id="pvp">NEW GAME (VS PLAYER)</button>
 			</div>
 		</form>
 	</dialog>
@@ -108,7 +108,7 @@
 			<button id="gbtn"></button>
 			<button id="gbtn"></button>
 			<div class="cross">
-				<p>X (P2)</p>
+				<p id="PX">X (P2)</p>
 				<h3 id="X">0</h3>
 			</div>
 			<div class="tie">
@@ -116,7 +116,7 @@
 				<h3 id="tie">0</h3>
 			</div>
 			<div class="dot">
-				<p>O (P1)</p>
+				<p id="PO">O (P1)</p>
 				<h3 id="O">0</h3>
 			</div>
 		</section>
